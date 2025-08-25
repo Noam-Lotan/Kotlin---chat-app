@@ -22,7 +22,7 @@ import io.ktor.websocket.readText
 import io.ktor.websocket.*
 import kotlinx.coroutines.*
 import java.util.Scanner
-
+//fasfa3
 object NetworkClient {
     private const val HOST = "127.0.0.1"
     private const val PORT = 8080
