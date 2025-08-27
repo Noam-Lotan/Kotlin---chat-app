@@ -47,6 +47,10 @@ dependencies {
 
     // AssertJ for fluent assertions
     testImplementation("org.assertj:assertj-core:3.24.2")
+
+    testImplementation("io.ktor:ktor-server-tests-jvm:2.3.12") // use the same Ktor version as your app
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+
 }
 
 tasks.test {
